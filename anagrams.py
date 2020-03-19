@@ -35,7 +35,7 @@ def find_anagrams(words):
 
 
 if __name__ == "__main__":
-	# run find anagrams of first argument
+# run find_anagrams() on first argument filename
 	if len(sys.argv) < 2:
 		print("Please specify a word file!")
 		sys.exit(1)
